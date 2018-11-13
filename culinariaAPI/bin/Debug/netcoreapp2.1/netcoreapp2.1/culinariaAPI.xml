@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>culinariaAPI</name>
+    </assembly>
+    <members>
+        <member name="M:culinariaAPI.Controllers.RecipeController.GetAll">
+            <summary>
+            Lista todas as receitas
+            </summary>
+        </member>
+        <member name="M:culinariaAPI.Controllers.RecipeController.Get(System.Int32)">
+            <summary>
+            Retorna a receita pelo id
+            </summary>
+            <param name="id">Id da receita</param>
+        </member>
+        <member name="M:culinariaAPI.Controllers.RecipeController.Post(culinariaAPI.Models.Recipe)">
+            <summary>
+            Adiciona uma nova receita
+            </summary>
+        </member>
+        <member name="M:culinariaAPI.Controllers.RecipeController.PostIngredient(System.Int32,System.Collections.Generic.List{culinariaAPI.Models.Ingredient})">
+            <summary>
+            Adiciona uma lista de ingredientes em uma receita
+            </summary>
+            <param name="id">Id da receita</param>
+        </member>
+        <member name="M:culinariaAPI.Controllers.RecipeController.PostPreparation(System.Int32,culinariaAPI.Models.Preparation)">
+            <summary>
+            Adiciona um modo de preparo em uma receita
+            </summary>
+            <param name="id">Id da receita</param>
+        </member>
+    </members>
+</doc>
